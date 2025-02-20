@@ -1,0 +1,15 @@
+{
+  "name": "mocaptoolsrevamp",
+  "version": "1.0.0",
+  "main": "main.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Logan Kniss",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "three": "^0.173.0"
+  }
+}

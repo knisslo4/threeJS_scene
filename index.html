@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>3D Scene</title>
+    <link rel="stylesheet" href="./3dstyles.css">
+    <style>
+        body {
+            margin: 0;
+            overflow: hidden;
+        }
+        canvas {
+            display: block;
+        }
+    </style>
+</head>
+<body>
+    <div class="button-container">
+        <!-- Buttons styled using CSS classes from styles.css -->
+        <!-- toggle-button class provides base styling -->
+        <!-- active class is toggled via JavaScript for state changes -->
+        <!-- Old version -->
+        <!-- <button id="Genlock" class="toggle-button">Genlock</button>
+        <button id="Netshare" class="toggle-button">Netshare</button> -->
+        
+        <!-- New version with buttons for each camera -->
+        <!-- <div class="camera-controls">
+            <div class="camera-group" data-camera="P1">
+                <span>P1</span>
+                <button class="toggle-button genlock">Genlock</button>
+                <button class="toggle-button netshare">Netshare</button>
+            </div>
+            <div class="camera-group" data-camera="P2">
+                <span>P2</span>
+                <button class="toggle-button genlock">Genlock</button>
+                <button class="toggle-button netshare">Netshare</button>
+            </div>
+            <div class="camera-group" data-camera="P3">
+                <span>P3</span>
+                <button class="toggle-button genlock">Genlock</button>
+                <button class="toggle-button netshare">Netshare</button>
+            </div>
+            <div class="camera-group" data-camera="P4">
+                <span>P4</span>
+                <button class="toggle-button genlock">Genlock</button>
+                <button class="toggle-button netshare">Netshare</button>
+            </div>
+            <div class="camera-group" data-camera="P5">
+                <span>P5</span>
+                <button class="toggle-button genlock">Genlock</button>
+                <button class="toggle-button netshare">Netshare</button>
+            </div>
+            <div class="camera-group" data-camera="P6">
+                <span>P6</span>
+                <button class="toggle-button genlock">Genlock</button>
+                <button class="toggle-button netshare">Netshare</button>
+            </div>
+            <div class="camera-group" data-camera="P7">
+                <span>P7</span>
+                <button class="toggle-button genlock">Genlock</button>
+                <button class="toggle-button netshare">Netshare</button>
+            </div>
+            <div class="camera-group" data-camera="P8">
+                <span>P8</span>
+                <button class="toggle-button genlock">Genlock</button>
+                <button class="toggle-button netshare">Netshare</button>
+            </div>
+        </div> -->
+    </div>
+    <script type="importmap">
+        {
+            "imports": {
+                "three": "https://unpkg.com/three@0.160.0/build/three.module.js",
+                "three/examples/jsm/controls/OrbitControls.js": "https://unpkg.com/three@0.160.0/examples/jsm/controls/OrbitControls.js",
+                "three/examples/jsm/loaders/FontLoader.js": "https://unpkg.com/three@0.160.0/examples/jsm/loaders/FontLoader.js",
+                "three/examples/jsm/loaders/TextGeometry.js": "https://unpkg.com/three@0.160.0/examples/jsm/loaders/TextGeometry.js"
+            }
+        }
+    </script>
+    <script type="module" src="./3dmain.js"></script>
+</body>
+</html> 
